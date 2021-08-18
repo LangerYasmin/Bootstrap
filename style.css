@@ -1,0 +1,175 @@
+/*Media Queries Font-Size*/
+html {
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 576px) {
+   html {
+       font-size: 1.1rem;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+/*Navigation*/
+.nav-link {
+    font-size: 1.1em;
+}
+
+.navbar-toggler {
+    height: 2em;
+    font-size: 0.8em;
+}
+
+.scrollDown {
+    transform: translateY(-100%); transition: all 0.3s ease-in-out;
+}
+
+.scrollUp {
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+/*Scroll to top button*/
+.backToTop {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    bottom: 1vh;
+    left: auto;
+    right: 1vw;
+    display: none;
+}
+
+/*Carousel*/
+.carousel {
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel img {
+    height: 100vh;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+/*Quotes*/
+.quoteDiv {
+    background-color: #dfdfdf;
+}
+
+/*Gallery*/
+.gallery img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hiddenImg {
+    display: none;
+}
+
+#showLessBtn {
+    display: none;
+}
+
+/*Fixed Background*/
+.fixedContainer {
+    height: 50vh;
+    width: 100%;
+}
+.fixed1, .fixed2 {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.fixed1 {
+    background-image: url(pictures/background1.jpeg);
+}
+
+.fixed2 {
+    background-image: url(pictures/background2.jpeg);
+}
+
+/*Welcome Section*/
+.hrWelcome {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Social Media Icons*/
+
+.social {
+    font-size: 2em;
+    padding: 2%;
+}
+
+.bi-facebook {
+    color: #3b5998;
+}
+
+.bi-instagram {
+   color: #C13584;
+}
+
+.bi-twitter {
+    color: #1DA1F2;
+}
+
+.bi-youtube {
+    color: #FF0000;
+}
+
+.bi-discord {
+    color: #5865F2;
+}
+
+/*Footer*/
+.footerDiv {
+    background-color:#dfdfdf;
+}
+
+.hrFooter {
+    width: 60%;
+    margin: 0 auto;
+}
